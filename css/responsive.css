@@ -1,0 +1,206 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+    #movieNavBar ul li {
+        font-size: 14px;
+    }
+    .btnToggle {
+        display: none;
+    }
+    .mfp-iframe-scaler iframe {
+        width: 80%;
+        height: 65%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #000;
+         margin: 0 !important;
+         padding: 0 !important;
+    }
+    .header__container {
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+    }
+    #movieNavBar .navbar-nav {
+        width: 100%;
+        padding: 0;
+    }
+    #movieNavBar2 .navbar-nav {
+        width: 100%;
+        padding: 0;
+    }
+    .btnToggle {
+        display: block;
+    }
+
+    /* MENU HEADER */
+
+    #movieNavBar .navbar-nav li {
+        border: none;
+    }
+    #movieNavBar .nav-item.active::after{
+        width: 0%;
+    }
+    #movieNavBar .nav-item:hover.active::after{
+        width: 100%;
+    }
+    #movieNavBar .navbar-nav li a {
+        padding: 15px 0;
+    }
+    #movieNavBar .nav-item a{
+    
+    }
+    #movieNavBar .nav-item::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        display: block;
+        background: linear-gradient(to right,#fbbd61,#ec7532);
+        transition: width 0.5s;
+    }
+    #movieNavBar .nav-item.active a{
+        color: #ec7532 !important;
+    }
+    #movieNavBar .nav-item:hover::after {
+       width: 100%;
+    }
+
+    /* NAVBAR2 */
+
+    #movieNavBar2 .navbar-nav li {
+        border: none;
+    }
+    #movieNavBar2 .nav-item.active::after{
+        width: 0%;
+    }
+    #movieNavBar2 .nav-item:hover.active::after{
+        width: 100%;
+    }
+    #movieNavBar2 .navbar-nav li a {
+        padding: 15px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+    .video-container {
+        padding-right: 10px;
+    }
+
+    .mfp-iframe-scaler iframe {
+        width: 97%;
+        height: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (max-width: 576px) {
+    .time-film {
+        text-align: left;
+        padding: 30px 15px;
+    }
+    .tab__item img {
+        width: 100%;
+    }
+    .nav-tabs {
+        display: block;
+    }
+    .showTime .nav-link::after{
+        content: '';
+        width: 4px;
+        height: 0%;
+        display: block;
+        background: linear-gradient(to bottom,#fbbd61,#ec7532);
+        transition: height 0.5s;
+    }
+    .showTime .nav-link.active {
+        color: #ec7532;
+    }
+    .showTime .nav-link.active::after{
+        width: 4px;
+        height: 100%;
+    }
+    .showTime .nav-link:hover::after{
+        width: 4px;
+        height: 100%;
+    }
+    .video-container {
+        padding: 0;
+    }
+
+    .navbar-collapse {
+        background-color: #000;
+         margin: 0 !important;
+         padding: 0 !important;
+    }
+    .header__container {
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+    }
+    #movieNavBar .navbar-nav {
+        width: 100%;
+        padding: 0;
+    }
+    #movieNavBar2 .navbar-nav {
+        width: 100%;
+        padding: 0;
+    }
+    .btnToggle {
+        display: block;
+    }
+
+    /* MENU HEADER */
+
+    #movieNavBar .navbar-nav li {
+        border: none;
+    }
+    #movieNavBar .nav-item.active::after{
+        width: 0%;
+    }
+    #movieNavBar .nav-item:hover.active::after{
+        width: 100%;
+    }
+    #movieNavBar .navbar-nav li a {
+        padding: 15px 0;
+    }
+    #movieNavBar .nav-item a{
+    
+    }
+    #movieNavBar .nav-item::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        display: block;
+        background: linear-gradient(to right,#fbbd61,#ec7532);
+        transition: width 0.5s;
+    }
+    #movieNavBar .nav-item.active a{
+        color: #ec7532 !important;
+    }
+    #movieNavBar .nav-item:hover::after {
+       width: 100%;
+    }
+
+    /* NAVBAR2 */
+
+    #movieNavBar2 .navbar-nav li {
+        border: none;
+    }
+    #movieNavBar2 .nav-item.active::after{
+        width: 0%;
+    }
+    #movieNavBar2 .nav-item:hover.active::after{
+        width: 100%;
+    }
+    #movieNavBar2 .navbar-nav li a {
+        padding: 15px 0;
+    }
+}
